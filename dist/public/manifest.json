@@ -1,0 +1,64 @@
+{
+  "name": "PrimoNotes - Study Companion",
+  "short_name": "PrimoNotes",
+  "description": "Master your studies with advanced note-taking, Anki-style flashcards, and comprehensive mock tests",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "New Note",
+      "short_name": "Note",
+      "description": "Create a new study note",
+      "url": "/notes",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Study Flashcards",
+      "short_name": "Flashcards",
+      "description": "Review your flashcards",
+      "url": "/flashcards",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Take Test",
+      "short_name": "Test",
+      "description": "Start a practice test",
+      "url": "/tests",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
